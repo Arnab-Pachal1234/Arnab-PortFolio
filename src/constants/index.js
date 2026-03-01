@@ -30,7 +30,9 @@ import {
   nitdgplogo,
   Clan,
   jupiternotebook,
-  redis
+  redis,
+  cyberSecurity,
+  load_balancer
 } from "../assets";
 
 export const navLinks = [
@@ -62,8 +64,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Blockchain Enthusiast",
-    icon: blockchain,
+    title: "CyberSecurty Enthusiast",
+    icon: cyberSecurity,
   },
 ];
 
@@ -127,7 +129,7 @@ const experiences = [
     date: "Aug 2023 - present",
     points: [
       "Mahatma Gandhi Rd, A-Zone, Durgapur, West Bengal 713209",
-      "CGPA : 8.98/10.0"
+      "CGPA : 9.00/10.0"
     ],
   },
   
@@ -249,6 +251,27 @@ const projects = [
     image: "https://image2url.com/images/1764650400548-6696a2ed-6463-496f-a2f4-38b7ffad42b8.png",
     source_code_link: "https://github.com/Arnab-pachal/FileCompressor",
   },
+  {
+    name: "Priority-Aware Load Balancer",
+    description:
+      "A high-performance, stateful load balancing system built from scratch using Node.js and raw TCP sockets. It features dynamic request routing via a custom Max-Heap, autonomous horizontal scaling using child processes, and robust fault tolerance. Includes a real-time Vanilla JS and WebSocket dashboard to visualize system mechanics.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "websockets",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "system-design",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: load_balancer, 
+    source_code_link: "https://github.com/Arnab-pachal/LoadBalancer",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -34,11 +34,11 @@ import tesla from "./company/tesla.png";
 import jangipurschool from './jangipurhighschool.jpg'
 import ramkrishnaschool from './ramkrishnaschool.png'
 import nitdgplogo from './nitdgplogo.png'
-
+import cyberSecurity from './cyberSecurity.jpg';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import load_balancer from "./load_balancer.png";
 export {
   logo,
   backend,
@@ -75,5 +75,7 @@ export {
   nitdgplogo,
   redis,
   jupiternotebook,
-  Clan
+  Clan,
+  cyberSecurity,
+  load_balancer
 };
